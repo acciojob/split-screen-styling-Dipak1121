@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	display: flex;
+}
+.right{
+	display:flex;
+	flex-direction: column;
+	flex: 1;
+}
+.middle{
+	display: flex;
+	height: 60vh;
+}
+.nav{
+	background-color: #D7E8D4;
+	width: 16.6667vw;
+	height: 100vh;
+}
+.header, .footer{
+	background-color: yellowgreen;
+	height: 20vh;
+}
+.article{
+	width: 75%;
+}
+.aside{
+	width: 25%;
+}
